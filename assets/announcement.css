@@ -24,3 +24,10 @@
    display:inline-block; */
     color: var(--primary-white);
 }
+
+@media screen and (max-width:768px){
+    #announcement-bar{
+        height:auto;
+        padding:15px 0px;
+    }
+}

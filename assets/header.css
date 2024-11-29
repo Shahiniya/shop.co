@@ -6,10 +6,18 @@ header nav{
     border-bottom: 1px solid rgba(0,0,0,0.1);
     padding:24px 0px;
 }
-
-header nav .logo{
+header nav .nav-left {
+  display: flex;
+  align-items: center;
+  gap:16px;
+    
+}
+header nav .nav-left .logo{
     max-width:160px;
     
+}
+header nav .menu-icon{
+    display:none;
 }
 
 header nav .nav-list{
@@ -55,4 +63,40 @@ header nav .nav-actions{
     list-style-type: none;
     gap: 14px;
 }
+
+header nav .nav-actions .search-icon{
+    display:none;
+}
+
+@media screen and (max-width:1100px){
+    header nav .search-bar{
+        max-width:260px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    header nav .search-bar{
+        display:none;
+    }
+
+    header nav .nav-actions .search-icon{
+        display:block;
+    }
+}
+
+@media screen and (max-width:768px){
+    header nav .nav-list{
+        display:none;
+    }
+
+    header nav .menu-icon{
+        display:block;
+    }
+
+    header nav .nav-left .logo{
+        max-width: 126px;
+    }
+}
+
+
 
