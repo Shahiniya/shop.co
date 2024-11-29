@@ -1,0 +1,26 @@
+/*Announcement bar*/
+#announcement-bar{
+    /* box style */
+    background-color: var(--primary-black);
+    height: 38px;
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+/* text style */
+}
+
+#announcement-bar h4{
+    font-weight:400;
+    font-size:14px;
+    line-height:18.9px;
+    color: var(--primary-white);
+}
+
+#announcement-bar h4 a{
+   /* text-decotation:none;
+   border-bottom!px solid var(--primary-white)
+   padding-bottom: 1px;
+   display:inline-block; */
+    color: var(--primary-white);
+}
