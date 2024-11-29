@@ -1,5 +1,7 @@
 @import url('./assets/announcement.css');
 @import url('./assets/header.css');
+@import url('./assets/hero.css');
+
 
 * {
     margin:0;
