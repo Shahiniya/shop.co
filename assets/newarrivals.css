@@ -1,0 +1,120 @@
+#new-arrivals{
+    padding: 66px 0px;
+    /* background-color: var(--green); */
+}
+#new-arrivals .title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57.6px;
+    color:var(--primary-black);
+    text-align: center;
+    margin-bottom: 55px;
+}
+/* #new-arrivals .container{
+    display: flex;
+} */
+.carousel-container{
+    overflow-x:auto;
+}
+
+#new-arrivals .wrapper{
+    display: flex;
+    /* align-items: center; */
+    justify-content: start;
+    gap:20px;
+    min-width: 1000px;
+}
+
+#new-arrivals .wrapper .product-card{
+    flex-grow: 1;
+}
+
+#new-arrivals .wrapper .product-card .image-wrapper{
+    border-radius: 5px;
+    overflow:hidden;
+}
+#new-arrivals .wrapper .product-card .image-wrapper img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#new-arrivals .wrapper .product-card .content{
+    padding: 16px 0px;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+#new-arrivals .wrapper .product-card .content h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--primary-black);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  
+    max-width: 260px;
+}
+
+#new-arrivals .wrapper .product-card .content .review{
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+
+#new-arrivals .wrapper .product-card .content .price{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.4px;
+    color: var(--primary-black);
+}
+
+#new-arrivals .actions{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#new-arrivals .actions .view-all{
+    padding: 16px 54px;
+    border-radius: 62px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.6px;
+    color:var(--primary-black);
+
+}
+
+::-webkit-csrollbar{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    #new-arrivals{
+        padding: 50px 0;
+    }
+
+    #new-arrivals .title{
+        font-size: 32px;
+        line-height: 45px;
+        margin-bottom: 32px;
+    }
+
+    #new-arrivals .actions{
+        margin-top: 20px;
+
+    }
+
+    #new-arrivals .actions .view-all{
+        padding: 12px 40px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
