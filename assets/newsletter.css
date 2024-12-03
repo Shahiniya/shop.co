@@ -1,0 +1,76 @@
+#newsletter{
+    width: 100%;
+    /* background-color: brown; */
+    justify-content: center;
+    align-items: center;
+}
+
+#newsletter .container{
+    width: 1240px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: var(--primary-black);
+    /* margin: 36px 84px ; */
+}
+
+#newsletter .container .wrapper{
+    display: flex;
+}
+
+#newsletter .container .wrapper h3{
+    color:var(--primary-white);
+    padding:40px 40px;
+    width: 551px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+#newsletter .container .wrapper .input{
+    /* background-color: antiquewhite; */
+    width: 349px;
+    height: 118px;
+    gap:14px;
+    /* padding: 30px; */
+    margin:30px 30px 50px 190px;
+    
+}
+
+#newsletter .container .wrapper .mail{
+    /* background-color: blue; */
+    width:339px;
+    display: flex;
+    margin:10px
+    /* position: relative; */
+
+}
+#newsletter .container .wrapper .mail img{
+   position: absolute;
+   width:20px;
+   height: 30px;
+   /* padding: 5px 5px; */
+   margin: 10px 10px;
+}
+
+#newsletter .container .wrapper .email{
+    width: 319px;
+    height: 48px;
+    border-radius: 62px;
+    /* padding: 12px 16px; */
+    gap:12px;
+    /* text-align:center; */
+    padding-left:35px;
+    color:rgba(0,0,0,0.5)
+}
+
+#newsletter .container .wrapper .subscribe{
+    width: 319px;
+    height: 48px;
+    border-radius: 62px;
+    padding: 10px 20px;
+    /* gap:12px; */
+    margin-left:10px;
+    text-align: center;
+    color:var(--primary-black)
+} 
