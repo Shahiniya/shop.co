@@ -74,3 +74,32 @@
     text-align: center;
     color:var(--primary-black)
 } 
+
+@media screen and (max-width:768px){
+    #newsletter .container{
+        width:380px;
+        height: 300px;
+
+    }
+    #newsletter .container .wrapper{
+        flex-direction: column;
+        width:350px;
+    }
+    #newsletter .container .wrapper h3{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+        width:340px;
+    }
+    #newsletter .container .wrapper .input{
+        /* background-color: antiquewhite; */
+        width: 220px;
+        height: 98px;
+        gap:14px;
+        /* padding: 30px; */
+        margin:40px 10px;
+        
+    }
+
+    }
+    
